@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 44: expected statement.
-    "Dr. House MD":   
-                  ^
+File "game/script.rpy", line 74: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    zoom 5 xoffset 1920/2/2
+    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Feb 28 00:45:39 2025
+Fri Feb 28 01:12:56 2025
