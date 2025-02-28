@@ -6,6 +6,7 @@
 define ksr = Character("Dr. Kasser")
 define mcq = Character("Macaque")
 define yn = Character("yn")
+define house = Character("Dr.House MD")
 
 
 # The game starts here.
@@ -39,6 +40,25 @@ menu:
    zoom 2 xoffset 1920/2/2
   mcq "looks at y/n, scoffs and walks away"
  
+
+ "Dr. House MD":   
+  jump housestart
+  label housestart:
+  $ menu_flag = True
+
+  show dr_kasser:
+   zoom 1.5 xoffset 1920/2/1.5
+  ksr "good morning class"
+  ksr "i graded your exams"
+  ksr "and although we have someone with a phd in this room"
+  ksr "the class average was still a 20 percent"
+  ksr "sigh."
+  ksr "dismissed"
+  hide dr_kasser
+  with dissolve
+  show dr_house:
+   zoom 2 xoffset 1920/2/2
+  house "what a shit show."
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 29: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
-    zoom 2 x 200
-                ^
+File "game/script.rpy", line 44: expected statement.
+    "Dr. House MD":   
+                  ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Thu Feb 27 23:56:54 2025
+Fri Feb 28 00:45:39 2025
